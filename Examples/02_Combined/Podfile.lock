@@ -1,0 +1,23 @@
+PODS:
+  - CombinedPod/Animal (0.1.0)
+  - CombinedPod/Plant (0.1.0)
+
+DEPENDENCIES:
+  - CombinedPod/Animal (from `https://github.com/yutao86/PodspecExample.git`)
+  - CombinedPod/Plant (from `https://github.com/yutao86/PodspecExample.git`)
+
+EXTERNAL SOURCES:
+  CombinedPod:
+    :git: https://github.com/yutao86/PodspecExample.git
+
+CHECKOUT OPTIONS:
+  CombinedPod:
+    :commit: 2ccbf5e5a75a60238aef8dc5dafcc3a15080972f
+    :git: https://github.com/yutao86/PodspecExample.git
+
+SPEC CHECKSUMS:
+  CombinedPod: 7b89dd5cc8470ab609600f824a04d5657b193e07
+
+PODFILE CHECKSUM: ccc402dafa8d36cb1e7d236345775019c933e170
+
+COCOAPODS: 1.10.0

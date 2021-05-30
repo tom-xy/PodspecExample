@@ -1,0 +1,21 @@
+PODS:
+  - BundlePod (0.1.4)
+
+DEPENDENCIES:
+  - BundlePod (from `https://github.com/yutao86/PodspecExample.git`)
+
+EXTERNAL SOURCES:
+  BundlePod:
+    :git: https://github.com/yutao86/PodspecExample.git
+
+CHECKOUT OPTIONS:
+  BundlePod:
+    :commit: cb6c52c57df168fda1b33b3f8bd2c934378c77f0
+    :git: https://github.com/yutao86/PodspecExample.git
+
+SPEC CHECKSUMS:
+  BundlePod: 5c46de37edef41cb2d860c38df8ae5f68c3f5133
+
+PODFILE CHECKSUM: 1ada653282346196a89b05811bf167675ab1769e
+
+COCOAPODS: 1.10.0

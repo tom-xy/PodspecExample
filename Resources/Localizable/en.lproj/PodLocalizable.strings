@@ -1,0 +1,9 @@
+/* 
+  PodLocalizable.strings
+  Pod
+
+  Created by Tom Yu on 2020/10/19.
+  
+*/
+
+"pod_localization_key" = "This is a localizable string in 'Resourced Pod'";

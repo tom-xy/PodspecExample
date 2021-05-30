@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+
+workspace 'Embedded.xcworkspace'
+project 'Embedded.xcodeproj'
+platform :ios, '11.0'
+
+target 'Embedded' do
+  use_frameworks!
+  # Default
+  # pod 'EmbeddedPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+
+  # Specify sub-pods
+  # pod 'EmbeddedPod', :subspecs => [ 'Animal', 'Plant'], :git => 'https://github.com/yutao86/PodspecExample.git'
+  
+  pod 'EmbeddedPod/Animal', :git => 'https://github.com/yutao86/PodspecExample.git'
+end

@@ -1,0 +1,9 @@
+/* 
+  PodLocalizable.strings
+  Pod
+
+  Created by Tom Yu on 2020/10/19.
+  
+*/
+
+"pod_localization_key" = "这是'Resourced Pod'中的一条国际化字符串。";

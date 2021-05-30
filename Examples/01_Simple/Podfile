@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+
+workspace 'Simple.xcworkspace'
+project 'Simple.xcodeproj'
+platform :ios, '11.0'
+
+target 'Simple' do
+  # use_frameworks!
+  # Enable：import pod as framework
+  # Disable：import pod as static lib
+  use_frameworks!
+  pod 'SimplePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+end
+
+target 'SimpleSwift' do
+  pod 'SimplePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+end

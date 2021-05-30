@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+
+workspace 'Combined.xcworkspace'
+project 'Combined.xcodeproj'
+platform :ios, '11.0'
+
+target 'Combined' do
+  use_frameworks!
+  
+  # Default
+  # pod 'CombinedPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+
+  pod 'CombinedPod', :subspecs => [ 'Animal', 'Plant'], :git => 'https://github.com/yutao86/PodspecExample.git'
+end

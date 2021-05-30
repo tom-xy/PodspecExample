@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+
+workspace 'Framework.xcworkspace'
+project 'Framework.xcodeproj'
+platform :ios, '11.0'
+
+target 'Framework' do
+  use_frameworks!
+  pod 'FrameworkPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+end

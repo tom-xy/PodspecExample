@@ -1,0 +1,21 @@
+PODS:
+  - LibraryPod (0.1.0)
+
+DEPENDENCIES:
+  - LibraryPod (from `https://github.com/yutao86/PodspecExample.git`)
+
+EXTERNAL SOURCES:
+  LibraryPod:
+    :git: https://github.com/yutao86/PodspecExample.git
+
+CHECKOUT OPTIONS:
+  LibraryPod:
+    :commit: 936f4b4ab721149e8e3f9e0cebbb45d8ea93de02
+    :git: https://github.com/yutao86/PodspecExample.git
+
+SPEC CHECKSUMS:
+  LibraryPod: 001d2ffe11d1ee7fc0a98887d586638babe39ea2
+
+PODFILE CHECKSUM: 514fa782fbdb025398d673ccbd1aa76ff215301d
+
+COCOAPODS: 1.10.0

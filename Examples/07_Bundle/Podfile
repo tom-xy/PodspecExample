@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Artsy/Specs.git'
+
+workspace 'Bundle.xcworkspace'
+project 'Bundle.xcodeproj'
+platform :ios, '11.0'
+
+target 'Bundle' do
+  use_frameworks!
+  pod 'BundlePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+end
