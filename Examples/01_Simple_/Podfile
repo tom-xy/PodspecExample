@@ -3,13 +3,9 @@ source 'https://github.com/Artsy/Specs.git'
 
 workspace 'Simple.xcworkspace'
 project 'Simple.xcodeproj'
-platform :ios, '16.0'
+platform :ios, '11.0'
 
 target 'Simple' do
-  pod 'SimplePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
-end
-
-target 'SimpleOC' do
   # use_frameworks!
   # Enable：import pod as framework
   # Disable：import pod as static lib
@@ -17,3 +13,6 @@ target 'SimpleOC' do
   pod 'SimplePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end
 
+target 'SimpleSwift' do
+  pod 'SimplePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
+end

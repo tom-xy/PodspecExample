@@ -1,0 +1,21 @@
+PODS:
+  - SimplePod (0.1.0)
+
+DEPENDENCIES:
+  - SimplePod (from `https://github.com/tom-xy/PodspecExample.git`)
+
+EXTERNAL SOURCES:
+  SimplePod:
+    :git: https://github.com/tom-xy/PodspecExample.git
+
+CHECKOUT OPTIONS:
+  SimplePod:
+    :commit: e5efdbd3c0dea4df6579508116b95651f1c2b2f8
+    :git: https://github.com/tom-xy/PodspecExample.git
+
+SPEC CHECKSUMS:
+  SimplePod: 4e2f410e4ed208139d14207f21e546f7830c0ff8
+
+PODFILE CHECKSUM: 7b783dd107ffe971610f98b6dbd6f2a5bb5388bc
+
+COCOAPODS: 1.16.2
