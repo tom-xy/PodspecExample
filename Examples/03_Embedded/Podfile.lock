@@ -4,16 +4,16 @@ PODS:
   - EmbeddedPod/Plant (0.1.0)
 
 DEPENDENCIES:
-  - EmbeddedPod/Animal (from `https://github.com/yutao86/PodspecExample.git`)
+  - EmbeddedPod/Animal (from `https://github.com/tom-xy/PodspecExample.git`)
 
 EXTERNAL SOURCES:
   EmbeddedPod:
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 CHECKOUT OPTIONS:
   EmbeddedPod:
     :commit: 0cc23b66714cbcc4c97478d570a8194b06dbf569
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 SPEC CHECKSUMS:
   EmbeddedPod: 28fa997fd3b5b262c4ac36435486175f692a8c79

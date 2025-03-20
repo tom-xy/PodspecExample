@@ -2,16 +2,16 @@ PODS:
   - ResourcedPod (0.1.2)
 
 DEPENDENCIES:
-  - ResourcedPod (from `https://github.com/yutao86/PodspecExample.git`)
+  - ResourcedPod (from `https://github.com/tom-xy/PodspecExample.git`)
 
 EXTERNAL SOURCES:
   ResourcedPod:
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 CHECKOUT OPTIONS:
   ResourcedPod:
     :commit: cb6c52c57df168fda1b33b3f8bd2c934378c77f0
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 SPEC CHECKSUMS:
   ResourcedPod: c863310d508d2c9397d43570a77b2e81aa8f91e3

@@ -7,5 +7,5 @@ platform :ios, '11.0'
 
 target 'Framework' do
   use_frameworks!
-  pod 'FrameworkPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'FrameworkPod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end

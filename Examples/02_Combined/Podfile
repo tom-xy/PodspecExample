@@ -9,7 +9,7 @@ target 'Combined' do
   use_frameworks!
   
   # Default
-  # pod 'CombinedPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  # pod 'CombinedPod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 
-  pod 'CombinedPod', :subspecs => [ 'Animal', 'Plant'], :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'CombinedPod', :subspecs => [ 'Animal', 'Plant'], :git => 'https://github.com/tom-xy/PodspecExample.git'
 end

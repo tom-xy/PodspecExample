@@ -7,5 +7,5 @@ platform :ios, '11.0'
 
 target 'Bundle' do
   use_frameworks!
-  pod 'BundlePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'BundlePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end

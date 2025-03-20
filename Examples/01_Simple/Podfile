@@ -10,9 +10,9 @@ target 'Simple' do
   # Enable：import pod as framework
   # Disable：import pod as static lib
   use_frameworks!
-  pod 'SimplePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'SimplePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end
 
 target 'SimpleSwift' do
-  pod 'SimplePod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'SimplePod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end

@@ -2,16 +2,16 @@ PODS:
   - FrameworkPod (0.1.0)
 
 DEPENDENCIES:
-  - FrameworkPod (from `https://github.com/yutao86/PodspecExample.git`)
+  - FrameworkPod (from `https://github.com/tom-xy/PodspecExample.git`)
 
 EXTERNAL SOURCES:
   FrameworkPod:
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 CHECKOUT OPTIONS:
   FrameworkPod:
     :commit: f24d96a5d0fd7e421d496bd354cad389f2fdb091
-    :git: https://github.com/yutao86/PodspecExample.git
+    :git: https://github.com/tom-xy/PodspecExample.git
 
 SPEC CHECKSUMS:
   FrameworkPod: 146a6207f52c0b9a3529750ae37f1a206550953a

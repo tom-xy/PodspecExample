@@ -4,5 +4,5 @@ platform :ios, '11.0'
 
 target 'Resourced' do
   use_frameworks!
-  pod 'ResourcedPod', :git => 'https://github.com/yutao86/PodspecExample.git'
+  pod 'ResourcedPod', :git => 'https://github.com/tom-xy/PodspecExample.git'
 end
